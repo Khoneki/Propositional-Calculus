@@ -36,6 +36,7 @@ public class Equation {
                     break;
                 case NOT :
                     connective.push(temp);
+                    newFomula += connective.pop();
                     break;
                 case EQUAL :
                     connective.push(temp);
